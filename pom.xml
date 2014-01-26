@@ -44,27 +44,6 @@
             <version>${hadoop.version}</version>
         </dependency>
 
-        <!-- pig -->
-        <!-- can be issues with pig and hive for antlr -->
-
-        <dependency>
-            <groupId>org.antlr</groupId>
-            <artifactId>antlr-runtime</artifactId>
-            <version>${antlr.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.antlr</groupId>
-            <artifactId>antlr</artifactId>
-            <version>${antlr.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>jline</groupId>
-            <artifactId>jline</artifactId>
-            <version>0.9.94</version>
-        </dependency>
-
         <dependency>
             <groupId>org.bigpetstore.pigmodule</groupId>
             <artifactId>bigpetstore</artifactId>
