@@ -11,5 +11,5 @@ mvn install:install-file -Dfile=pig.jar -DgroupId=org.bigpetstore.pigmodule -Dar
 'dependency'  
     'groupId org.bigpetstore.pigmodule /groupId'  
     'artifactId bigpetstore /artifactId'  
-    'version>1.0/version'  
+    'version 1.0 /version'  
 '/dependency'
