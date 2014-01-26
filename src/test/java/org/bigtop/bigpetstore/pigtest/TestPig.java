@@ -28,36 +28,10 @@ public class TestPig {
     static long ID = System.currentTimeMillis();
     String test_data_directory  =  "/tmp/BigPetStore"+ID;
 
-    @Before
-    public void setUp() throws Exception {
-        System.out.println("setUp deleting output directory");
-        File pig_test_store = new File("./d3/pigOutTestData3");
-    }
 
-    @After
-    public void cleanUp() throws Exception {
-
-        /*********
-         * TODO: Implement clean up for this test.
-         *
-         */
-    }
-    /**
-     * run the pig job
-     * @throws Exception
-     */
-
-  //  @Test
-    public void testPhase1() throws Exception {
-
-
-        PigServer pigServer = new PigServer(ExecType.LOCAL);
-
-        pigServer.registerScript( TestPig.class.getResource("/petStore.pig").toURI().toURL().getFile());
-    }
 
     @Test
-    public void testPhase2() throws Exception {
+    public void testPigETL() throws Exception {
 
     int records = 10;
     /**

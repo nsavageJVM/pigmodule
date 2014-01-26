@@ -9,7 +9,7 @@ ant clean jar -Dhadoopversion=23
 mvn install:install-file -Dfile=pig.jar -DgroupId=org.bigpetstore.pigmodule -DartifactId=bigpetstore -Dversion=1.0 -Dpackaging=jar
 
 'dependency'  
-    'groupId>org.bigpetstore.pigmodule/groupId'  
-    'artifactId>bigpetstore/artifactId'  
+    'groupId org.bigpetstore.pigmodule /groupId'
+    'artifactId bigpetstore /artifactId'
     'version>1.0/version'  
 '/dependency'
